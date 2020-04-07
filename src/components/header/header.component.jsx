@@ -17,10 +17,10 @@ const Header = ({ currentUser, hidden }) => (
       <Logo className="logo" />
     </Link>
     <div className="options-container">
-      <Link className="option" to="./shop">
+      <Link className="option" to="/shop">
         SHOP
       </Link>
-      <Link className="option" to="./contact">
+      <Link className="option" to="/contact">
         CONTACT
       </Link>
       {
@@ -31,7 +31,7 @@ const Header = ({ currentUser, hidden }) => (
           </div>
         ) :
         (
-          <Link className="option" to="./signin">
+          <Link className="option" to="/signin">
             SIGN IN
           </Link>
         )
